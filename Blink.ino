@@ -9,12 +9,19 @@ void setup() {
 
 void loop() {
   // put your main code here, to run repeatedly:
-  
+  show(random(0,255),random(0,255),random(0,255));
+  delay(1000);
 }
 
-void show(int r.int g,int b){
+void show(int r,int g,int b){
     analogWrite(RED, r);
     analogWrite(GREEN, g);
     analogWrite(BLUE, b);
+}
+
+void off(){
+  digitalWrite(RED, LOW);
+  digitalWrite(GREEN, LOW);
+  digitalWrite(BLUE, LOW);
 }
 
