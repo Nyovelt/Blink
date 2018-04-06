@@ -14,9 +14,9 @@ void loop() {
 }
 
 void show(int r,int g,int b){
-    analogWrite(RED, r);
-    analogWrite(GREEN, g);
-    analogWrite(BLUE, b);
+  analogWrite(RED, r);
+  analogWrite(GREEN, g);
+  analogWrite(BLUE, b);
 }
 
 void off(){
