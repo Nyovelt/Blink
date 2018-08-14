@@ -1,9 +1,9 @@
-const int RED = 8;
-const int GREEN = 9;
-const int BLUE = 10;
+const int RED = 9;
+const int GREEN = 10;
+const int BLUE = 11;
 void setup() {
   // put your setup code here, to run once:
-  for (int i=8;i<=10;i++)
+  for (int i=9;i<=11;i++)
     pinMode(i, OUTPUT);
 }
 
